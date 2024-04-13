@@ -1,6 +1,6 @@
 export const Opiniones = () => {
     return (
-        <section id="opiniones">
+        <section id="opiniones" className="bg-custom-orange">
             <h2>Sus opiniones</h2>
             <article>
                 <picture>

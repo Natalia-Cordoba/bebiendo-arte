@@ -1,6 +1,6 @@
 export const Experiencias = () => {
     return (
-        <section id="experiencias">
+        <section id="experiencias" className="bg-custom-white">
             <h2>Nuestras Experiencias</h2>
             <article>
                 <picture>

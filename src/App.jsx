@@ -8,7 +8,7 @@ import { Opiniones } from "./components/Opiniones"
 
 function App() {
   return (
-    <main>
+    <main className="text-gray-800">
       <Header />
       <Intro />
       <Nosotros />
