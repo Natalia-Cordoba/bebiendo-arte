@@ -1,11 +1,11 @@
-import { EXPERIENCIAS } from "../data/Experiencias.js"
+import { dataExperiencias } from "../data/dataExperiencias.js"
 
 export const Experiencias = () => {
     return (
         <section id="experiencias" className="bg-custom-white py-8 px-4">
-            <h2 className="text-gray-700 font-bold text-2xl pb-2 text-center">Nuestras Experiencias</h2>
+            <h2 className="text-custom-brown font-bold text-2xl pb-2 text-center">Nuestras Experiencias</h2>
             <article>
-                {EXPERIENCIAS.map(({ image, title, description }) => {
+                {dataExperiencias.map(({ image, title, description }) => {
                     return (
                         <div className="bg-custom-brown mt-4 mb-6 pb-3" key={title}>
                             <picture>
