@@ -2,8 +2,8 @@ import { dataOpiniones } from "../data/dataOpiniones.js"
 
 export const Opiniones = () => {
     return (
-        <section id="opiniones" className="bg-custom-orange py-8 px-4">
-            <h2 className="text-gray-700 font-bold text-2xl pb-5 text-center">Sus opiniones</h2>
+        <section id="opiniones" className="bg-custom-orange dark:bg-gray-800 py-8 px-4">
+            <h2 className="text-gray-700 dark:text-custom-orange font-bold text-2xl pb-5 text-center">Sus opiniones</h2>
             <article>
                 {dataOpiniones.map(({ image, name, opinion }) => {
                     return (
@@ -13,7 +13,7 @@ export const Opiniones = () => {
                             </picture>
                             <div className="flex-col bg-custom-white p-2 mb-5 rounded-xl text-left border-2 border-custom-pink">
                                 <h3 className="font-semibold text-custom-brown">{name}</h3>
-                                <p className="px-5">{opinion}</p>
+                                <p className="px-5 dark:text-gray-800">{opinion}</p>
                             </div>
                         </div>
                     )

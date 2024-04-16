@@ -1,3 +1,5 @@
+import { ThemeButton } from "./ThemeButton"
+
 export const Header = () => {
     return (
         <header className="flex justify-between bg-custom-brown py-3 px-3 text-custom-white font-semibold">
@@ -8,6 +10,7 @@ export const Header = () => {
                 <a href="/#opiniones">OPI</a>
                 <a href="/#contacto">CON</a>
             </nav>
+            <ThemeButton />
         </header>
     )
 }

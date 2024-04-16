@@ -6,8 +6,8 @@ import { Newsletter } from './Newsletter.jsx'
 
 export const Contacto = () => {
     return (
-        <section id="contacto" className="bg-custom-white py-8 px-4">
-            <h2 className="text-custom-brown font-bold text-2xl pb-2 text-center">Contacto</h2> 
+        <section id="contacto" className="bg-custom-white dark:bg-gray-800 py-8 px-4">
+            <h2 className="text-custom-brown dark:text-custom-orange font-bold text-2xl pb-2 text-center">Contacto</h2> 
             <Formulario />
             <aside>
                 <Newsletter />
