@@ -29,6 +29,7 @@ export const ThemeButton = () => {
             alt={theme === 'light' ? 'Dark Mode' : 'Light Mode'}
             onClick={handleClick}
             style={{ cursor: 'pointer' }}
+            className="absolute md:static right-3"
         />
     )
 }

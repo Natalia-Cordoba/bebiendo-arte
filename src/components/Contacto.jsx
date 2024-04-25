@@ -23,7 +23,7 @@ export const Contacto = () => {
                         <p>bebiento_arte</p>
                     </a>
                     <a 
-                        href="" 
+                        href="mailto:bebiendoarte@example.com" 
                         target='_blank'
                         className='flex gap-2 pl-5'
                     >
