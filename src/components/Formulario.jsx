@@ -1,8 +1,8 @@
 export const Formulario = () => {
     return (
         <article>
-            <h3 className="text-lg font-semibold text-center">Reserva tu experiencia</h3>
-            <form action="#" className="bg-custom-pink m-4 p-4 flex flex-col gap-1 shadow-lg shadow-custom-brown dark:shadow-gray-600 mb-6 rounded-xl">
+            <h3 className="text-lg md:text-xl font-semibold text-center text-custom-pink mb-6">Reserva tu experiencia</h3>
+            <form action="#" className="max-w-xs mx-auto bg-custom-pink m-4 p-4 flex flex-col gap-1 shadow-lg shadow-custom-brown dark:shadow-gray-600 mb-8 rounded-xl">
                 <label htmlFor="nombre" className="dark:text-gray-800">Ingresa tu nombre</label>
                 <input type="text" placeholder="ingresa tu nombre" className="p-2 rounded-md" />
                 <label htmlFor="email" className="dark:text-gray-800">Ingresa tu correo</label>

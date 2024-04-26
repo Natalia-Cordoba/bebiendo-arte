@@ -8,7 +8,7 @@ import { Opiniones } from "./components/Opiniones"
 
 function App() {
   return (
-      <main className="relative z-1 text-gray-800 dark:text-custom-white">
+      <main className="relative z-1 text-gray-800 dark:text-custom-white md:text-lg">
         <Header />
         <Intro />
         <Nosotros />
