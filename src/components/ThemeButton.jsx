@@ -29,7 +29,7 @@ export const ThemeButton = () => {
             alt={theme === 'light' ? 'Dark Mode' : 'Light Mode'}
             onClick={handleClick}
             style={{ cursor: 'pointer' }}
-            className="absolute md:static right-3"
+            className="absolute md:static right-3 lg:mr-6 hover:p-1.5 hover:border-2 hover:border-custom-orange hover:rounded-full hover:shadow-md hover:shadow-gray-600"
         />
     )
 }

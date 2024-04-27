@@ -13,12 +13,12 @@ export const Contacto = () => {
                 <aside>
                     <Newsletter />
                     <article className='md:my-6'>
-                        <h3 className="text-lg md:text-xl font-semibold text-center text-custom-pink mb-4">Otros métodos de contacto</h3>
+                        <h3 className="text-lg md:text-xl font-semibold text-center text-custom-brown mb-4">Otros métodos de contacto</h3>
                         <ul className='flex flex-col gap-4 items-center'>
                             <a
                                 href="https://www.instagram.com/"
                                 target='_blank'
-                                className='flex gap-2'
+                                className='flex gap-2 hover:text-custom-white hover:bg-gray-500 hover:dark:bg-gray-600 hover:px-4 hover:py-1 hover:rounded-3xl transition-colors'
                             >
                                 <img src={instagram} alt="icono ig" />
                                 <p>bebiento_arte</p>
@@ -26,7 +26,7 @@ export const Contacto = () => {
                             <a
                                 href="mailto:bebiendoarte@example.com"
                                 target='_blank'
-                                className='flex gap-2'
+                                className='flex gap-2 hover:text-custom-white hover:bg-gray-500 hover:dark:bg-gray-600 hover:px-4 hover:py-1 hover:rounded-3xl transition-colors'
                             >
                                 <img src={email} alt="icono correo" />
                                 <p>bebientoarte@example.com</p>

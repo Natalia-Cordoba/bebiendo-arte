@@ -2,7 +2,7 @@ import { fotos } from "../data/fotos.js";
 
 export const GaleriaFotos = () => {
     return (
-        <section className="flex w-full h-60">
+        <section className="my-8 flex w-full md:max-w-4xl h-72 border-8 border-gray-500 dark:border-gray-900 shadow-xl shadow-gray-700">
             {fotos.map(({ name, url, description }) => {
                 return (
                     <img

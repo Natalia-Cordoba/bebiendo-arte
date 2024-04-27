@@ -8,7 +8,7 @@ export const Footer = () => {
             </h3>
             <a href="/#inicio" >
                 <img
-                    className='bg-custom-brown rounded-full border-2 border-custom-white p-1 fixed bottom-3 right-3'
+                    className='bg-custom-brown rounded-full border-2 border-custom-white p-1 fixed bottom-3 right-3 shadow-md shadow-gray-600 md:right-6 hover:h-10 ease-in-out'
                     src={arrowUp}
                     alt="icono flecha para ir al inicio"
                 />
