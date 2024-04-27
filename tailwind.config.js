@@ -12,9 +12,14 @@ export default {
         'custom-pink': '#CEAB93',
         'custom-orange': '#E3CAA5',
         'custom-white': '#FFFBE9',
+      },
+      fontFamily: {
+        'custom-font': ['Oswald', 'sans-serif'],
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 
